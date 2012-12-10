@@ -52,3 +52,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/zope/lib/python/Products/%{name}/
 
 #----------------------------------------------------------------------
+%changelog
+* Wed Sep 05 2003 Sebastien Robin <seb@nexedi.com> 1.0.1-2mdk
+- Update spec in order to follows Mandrake Rules
+
+* Wed Mar 05 2003 Jean-Paul Smets <jp@nexedi.com> 1.0.1-1nxd
+- Initial release

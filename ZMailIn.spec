@@ -1,5 +1,5 @@
 Name:               ZMailIn
-Summary:            A Zope product to import emails into Zope sites.
+Summary:            A Zope product to import emails into Zope sites
 Version:            1.0.1
 Release:            2mdk
 Group:              Development/Python

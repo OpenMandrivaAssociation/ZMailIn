@@ -1,14 +1,12 @@
 Name:               ZMailIn
 Summary:            A Zope product to import emails into Zope sites
 Version:            1.0.1
-Release:            2mdk
+Release:            3
 Group:              Development/Python
 Requires:           zope
 License:            GPL
 URL:                http://www.zope.org/Members/NIP/ZMailIn
-Packager:           Sebastien Robin <seb@nexedi.com>
-BuildRoot:          %{_tmppath}/%{name}-%{version}-rootdir
-Buildarch:	noarch
+BuildArch:	noarch
 
 Source: %{name}-%{version}.tar.bz2
 
@@ -18,8 +16,6 @@ ZMailIn is a Zope product to import emails into Zope sites.
 
 #----------------------------------------------------------------------
 %prep
-
-rm -rf $RPM_BUILD_ROOT
 %setup -q 0
 
 #----------------------------------------------------------------------
@@ -42,7 +38,6 @@ install help/*.* $RPM_BUILD_ROOT%{_libdir}/zope/lib/python/Products/%{name}/help
 
 
 %clean
-rm -rf $RPM_BUILD_ROOT
 
 #----------------------------------------------------------------------
 %files

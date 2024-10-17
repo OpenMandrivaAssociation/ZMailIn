@@ -5,7 +5,7 @@ Release:            3
 Group:              Development/Python
 Requires:           zope
 License:            GPL
-URL:                http://www.zope.org/Members/NIP/ZMailIn
+URL:                https://www.zope.org/Members/NIP/ZMailIn
 BuildArch:	noarch
 
 Source: %{name}-%{version}.tar.bz2
